@@ -5,8 +5,7 @@ The data provided in the sample input (i.e. an example database) absolutely has 
 with real people.
 
 ##Overview
-This is a major project in my Advanced C++ course to illustrate and implement how a bank practically behaves.<br/>
-This bank program demonstrates many concepts: <br/>
+The purpose of this bank program is to design and implement how a bank behaves by demonstrating many concepts such as:<br/>
 &nbsp;&nbsp;&nbsp;* Object-oriented and functional designs; nested objects <br/>
 &nbsp;&nbsp;&nbsp;* Multiple file compilation: separate header and source files <br/>
 &nbsp;&nbsp;&nbsp;* Database manipulation <br/>
