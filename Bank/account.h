@@ -13,7 +13,6 @@ class Account{
   double balance;
 
   public:
-    //Account() {}
     Account(int accnum = 0, string type = "", double balance = 0, Depositor depositor = Name())
     {
       this->accnum = accnum;
