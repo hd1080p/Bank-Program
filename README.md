@@ -6,7 +6,7 @@ with real people.
 
 ##Overview
 This is a major project in my Advanced C++ course to illustrate and implement how a bank practically behaves.<br/>
-This bank program illustrates concepts such as: <br/>
+This bank program demonstrates many concepts: <br/>
 &nbsp;&nbsp;&nbsp;* Object-oriented and functional designs; nested objects <br/>
 &nbsp;&nbsp;&nbsp;* Multiple file compilation: separate header and source files <br/>
 &nbsp;&nbsp;&nbsp;* Database manipulation <br/>
