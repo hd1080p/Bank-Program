@@ -1,0 +1,10 @@
+Doe John 01-02-0304 7196 Checking 0.43 
+Cho Hien 05-06-0708 2303 Savings  1337.02 
+Who Doug 09-10-1112 8035 Checking 420.23
+Cruz Ada 13-14-1516 5404 CD       100569.00 
+Lee Boyd 17-18-1920 7722 CD       48165.65 
+Peng Max 21-22-2324 3491 Checking 5781.99 
+Dinh Sam 25-26-2728 6077 Checking 5 
+Kim Dang 29-30-3132 7061 CD       90 
+Cox John 33-34-3536 8165 Savings  250 
+Hill Zed 37-38-3940 2963 Checking 30000
