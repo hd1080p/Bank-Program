@@ -7,7 +7,13 @@ The data provided in the sample input absolutely has no connection with real peo
 <strong>For Linux: </strong><br/>
 &nbsp;&nbsp;&nbsp;* Ensure ```g++``` and ```make``` is installed.<br/>
 &nbsp;&nbsp;&nbsp;* Clone the repository and ```cd``` into the working directory.<br/>
-&nbsp;&nbsp;&nbsp;* 
+&nbsp;&nbsp;&nbsp;* run ```make``` then ```./main.out```. <br/>
+
+<strong>For Windows </strong></br>
+&nbsp;&nbsp;&nbsp;* Ensure MinGW is installed or a similar C++ compiler. <br/>
+&nbsp;&nbsp;&nbsp;* Ensure PATH variables are set, pointing to MinGW. <br/>
+&nbsp;&nbsp;&nbsp;* Clone the repository and move into the working directory in command prompt. <br/>
+&nbsp;&nbsp;&nbsp;* Type ```make``` or ```mingw32-make``` to compile all the files then run ```./main.out```.
 
 ##Overview
 The purpose of this bank program is designing and implementing a bank's behavior by demonstrating concepts such as:<br/>
