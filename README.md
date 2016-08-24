@@ -1,4 +1,4 @@
-# Bank-Simulation Program: <br/>_a major project in an Advanced C++ course Ver. 1_
+# Bank-Simulation Program
 
 ##DISCLAIMER
 The data provided in the sample input absolutely has no connection with real people.
