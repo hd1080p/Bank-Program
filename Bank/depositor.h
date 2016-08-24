@@ -1,23 +1,26 @@
 #ifndef depositor_h
 #define depositor_h
-#include "name.h"
 
+#include "name.h"
 
 class Depositor{
   Name name;
-  string ssn;
+  std::string ssn;
+
   public:
-    Depositor(Name name = Name(), string ssn = "")
-    {
+    //Constructor
+    Depositor(Name name = Name(), std::string ssn = ""){
       this->name = name;
       this->ssn = ssn;
     }
 
     //Mutators
     void setName(Name name);
-    void setSSN(string ssn);
+    void setSSN(std::string ssn);
+
     //Accessors
     Name getName() const;
-    string getSSN() const;
+    std::string getSSN() const;
 };
-#endif
+
+#endif //depositor_h

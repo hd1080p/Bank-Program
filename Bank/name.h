@@ -1,21 +1,24 @@
 #ifndef name_h
 #define name_h
 #include <string>
-using namespace std;
 
 class Name{
-  string first, last;
+  std::string first, last;
+
   public:
-    Name(string first = "", string last = "")
-    {
+    //Constructor
+    Name(std::string first = "", std::string last = "") {
        this->first = first;
        this->last = last;
     }
+
     //Mutators
-    void setFirstName(string first);
-    void setLastName(string last);
+    void setFirstName(std::string first);
+    void setLastName(std::string last);
+
     //Accessors
-    string getFirstName() const;
-    string getLastName() const;
+    std::string getFirstName() const;
+    std::string getLastName() const;
 };
-#endif
+
+#endif //name_h

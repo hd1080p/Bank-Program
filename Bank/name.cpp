@@ -1,13 +1,13 @@
 #include "name.h"
 
-void Name::setFirstName(string first)
+void Name::setFirstName(std::string first)
 { this->first = first; }
 
-void Name::setLastName(string last)
+void Name::setLastName(std::string last)
 { this->last = last; }
 
-string Name::getFirstName() const
+std::string Name::getFirstName() const
 { return first; }
 
-string Name::getLastName() const
+std::string Name::getLastName() const
 { return last; }

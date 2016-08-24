@@ -1,14 +1,13 @@
 #include "depositor.h"
-#include <string>
 
 void Depositor::setName(Name name)
 { this->name = name; }
 
-void Depositor::setSSN(string ssn)
+void Depositor::setSSN(std::string ssn)
 { this->ssn = ssn; }
 
 Name Depositor::getName() const
 { return name; }
 
-string Depositor::getSSN() const
+std::string Depositor::getSSN() const
 { return ssn; }

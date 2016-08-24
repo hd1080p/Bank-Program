@@ -1,20 +1,20 @@
 #ifndef account_h
 #define account_h
+
 #include "depositor.h"
 #include "transaction.h"
-#include <string>
 
 class Account{
   Depositor depositor;
   int accnum;
-  string type, status;
+  std::string type, status;
   Transaction *transaction[50];
   int numtrans;
   double balance;
 
   public:
-    Account(int accnum = 0, string type = "", double balance = 0, Depositor depositor = Name())
-    {
+    //Constructor
+    Account(int accnum = 0, std::string type = "", double balance = 0, Depositor depositor = Depositor()){
       this->accnum = accnum;
       this->type = type;
       this->balance = balance;
@@ -25,20 +25,26 @@ class Account{
 
     //Mutators
     void makeDeposit(double amount);
-    bool makeWithdraw(double amount);
-    void setBalance(double balance);
-    int setAccountNumber(int accnum);
-    void setAccountType(string type);
-    void setAccountStatus(string status);
+    void setAccountType(std::string type);
+    void setAccountStatus(std::string status);
     void setTransaction(Transaction transaction, int index);
-    void addTransaction(string type, double amount);
+    void addTransaction(std::string type, double amount);
+    void setBalance(double balance);
+    bool checkWithdrawl(double amount);
+    void makeWithdrawl(double amount);
+    int setAccountNumber(int accnum);
+
     //Accessors
     double getBalance() const;
-    Depositor getDepositor() const;
-    int getAccountNumber() const;
-    string getAccountType() const;
-    string getAccountStatus() const;
-    Transaction* getTransaction(int index);
     int getNumTrans() const;
+    int getAccountNumber() const;
+    std::string getAccountType() const;
+    std::string getAccountStatus() const;
+    Depositor getDepositor() const;
+    Transaction* getTransaction(int index);
+
+    //Operator Overload
+    bool operator<(const Account& rhs);
 };
-#endif
+
+#endif //account_h
