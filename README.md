@@ -15,6 +15,7 @@ The purpose of this bank program is designing and implementing a bank's behavior
 &nbsp;&nbsp;&nbsp;* Multiple file compilation: separate header and source files <br/>
 &nbsp;&nbsp;&nbsp;* Database manipulation<br/>
 &nbsp;&nbsp;&nbsp;* Dynamic Memory management<br/>
+&nbsp;&nbsp;&nbsp;* Data Structures: Doubly Linked Lists <br/>
 
 ##Input
 Sample input file: database.txt<br/>
